@@ -9,5 +9,5 @@
 Cleaned up the travis.yml to work on it's own (without custom install and scripts sections).
 
 **Link to work:**
-[Recipie App on GitHub Pages](https://vijayabharathib.github.io/fcc-project-react-recipies)
-[Recipie App repository on GitHub](https://github.com/vijayabharathib/fcc-project-react-recipies)
+1. [Recipie App on GitHub Pages](https://vijayabharathib.github.io/fcc-project-react-recipies)
+2. [Recipie App repository on GitHub](https://github.com/vijayabharathib/fcc-project-react-recipies)
