@@ -28,4 +28,4 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 
 [Below are references to links used in the doc]: http://vijayabharathi.in
 [Recipie App on GitHub Pages]: https://vijayabharathib.github.io/fcc-project-react-recipies
-[Recipie App repository on GitHub](https://github.com/vijayabharathib/fcc-project-react-recipies)
+[Recipie App repository on GitHub]: https://github.com/vijayabharathib/fcc-project-react-recipies
