@@ -24,7 +24,41 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 1. [Recipie App on GitHub Pages]
 2. [Recipie App repository on GitHub]
 
+### Day 3: Jan 14, 2017
 
+**Today's Progress**: Started work on ingredients part of the recipie box
+
+**Thoughts:** found it hard follow TDD, but had to keep that impulse to write app at check as I can already see TDD giving me good feedback on the existing code base.
+
+**Link to work:**
+
+1. [Recipie App on GitHub Pages]
+2. [Recipie App repository on GitHub]
+
+### Day 4: Jan 15, 2017
+
+**Today's Progress**: Continued work on ingredients part of the recipie box
+
+**Thoughts:** coding this app with react and redux is overwhelming at times when things get messy with nested level of info. Had to go back to one step/one label/one button at time to stay motivated. finished the functional part of adding ingredients to recipies.
+
+**Link to work:**
+
+1. [Recipie App on GitHub Pages]
+2. [Recipie App repository on GitHub]
+
+1. [Recipie App on GitHub Pages]
+2. [Recipie App repository on GitHub]
+
+### Day 5: Jan 19, 2017
+
+**Today's Progress**: Started designing ingredients with sass
+
+**Thoughts:** messed up travis tests and automatic deployment to github pages as my commit didn't include the new style files. it was working locally as the file system had all necessary files. however, since the commit did not have few files, tests were failing only during travis CI build process. Apart from that, the styling comes out good and looks lively now.
+
+**Link to work:**
+
+1. [Recipie App on GitHub Pages]
+2. [Recipie App repository on GitHub]
 
 [Below are references to links used in the doc]: http://vijayabharathi.in
 [Recipie App on GitHub Pages]: https://vijayabharathib.github.io/fcc-project-react-recipies
