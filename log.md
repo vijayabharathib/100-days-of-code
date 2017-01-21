@@ -46,14 +46,25 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 1. [Recipie App on GitHub Pages]
 2. [Recipie App repository on GitHub]
 
-1. [Recipie App on GitHub Pages]
-2. [Recipie App repository on GitHub]
 
 ### Day 5: Jan 19, 2017
 
 **Today's Progress**: Started designing ingredients with sass
 
 **Thoughts:** messed up travis tests and automatic deployment to github pages as my commit didn't include the new style files. it was working locally as the file system had all necessary files. however, since the commit did not have few files, tests were failing only during travis CI build process. Apart from that, the styling comes out good and looks lively now.
+
+**Link to work:**
+
+1. [Recipie App on GitHub Pages]
+2. [Recipie App repository on GitHub]
+
+
+
+### Day 6: Jan 21, 2017
+
+**Today's Progress**: Continued designing ingredients with sass
+
+**Thoughts:** picked up css triangle again to mark UX for collapsed/expanded modes. also sorted out design for the form to add ingredients. add recipie text box also got a placeholder.
 
 **Link to work:**
 
