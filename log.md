@@ -71,6 +71,18 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 1. [Recipie App on GitHub Pages]
 2. [Recipie App repository on GitHub]
 
+### Day 7: Jan 22, 2017
+
+**Today's Progress**: Started coding ingredient maintenance (delete)
+
+**Thoughts:** easier to prepare the actions and reducers. with recipie id and ingredient id, the reducer is able to remove the ingredient from the store. I see paters of code duplication, potential refactoring opportunity. starting the DOM implementation through react components seems to be hard - this is because ingredient is now just a presentational component - with no onclick callback..etc. One for tomorrow.
+
+**Link to work:**
+
+1. [Recipie App on GitHub Pages]
+2. [manage-ingredient branch on github repository]
+
+
 [Below are references to links used in the doc]: http://vijayabharathi.in
 [Recipie App on GitHub Pages]: https://vijayabharathib.github.io/fcc-project-react-recipies
 [Recipie App repository on GitHub]: https://github.com/vijayabharathib/fcc-project-react-recipies
