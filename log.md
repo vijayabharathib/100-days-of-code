@@ -82,6 +82,16 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 1. [Recipie App on GitHub Pages]
 2. [manage-ingredient branch on github repository]
 
+### Day 8: Jan 23, 2017
+
+**Today's Progress**: TDD integration test
+
+**Thoughts:** wrote an integration test (TDD) for deleting an ingredient. the set up block (to set up few recipies and ingredients) spoiled all the other tests. the action creators had global id variable to create unique id each time. adding test changes the number and other tests were expecting different numbers. proper setup and tear down will solve it - started with a flush function to reset the globals. now there is only one (expected) failure. next step is to actually create the function and link it to the onclick of delete button to pass the failing test.
+
+**Link to work:**
+
+1. [Recipie App on GitHub Pages]
+2. [manage-ingredient branch on github repository]
 
 [Below are references to links used in the doc]: http://vijayabharathi.in
 [Recipie App on GitHub Pages]: https://vijayabharathib.github.io/fcc-project-react-recipies
