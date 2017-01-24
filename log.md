@@ -93,6 +93,18 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 1. [Recipie App on GitHub Pages]
 2. [manage-ingredient branch on github repository]
 
+### Day 9: Jan 23, 2017
+
+**Today's Progress**: delete ingredient TDD green
+
+**Thoughts:** finally, simple use of dispatch (instead of trying to wrap around custom made transmit) worked. able to delete ingredients now. this was not like the recipie list & recipie component, as ingredient list also had a form to add new ingredients. i'll have to refactor either recipie/ingredient to match one another. for now, the last bit is to make the ingredients editable. another two/three days, and should be done with this project. 
+
+**Link to work:**
+
+1. [Recipie App on GitHub Pages]
+2. [manage-ingredient branch on github repository]
+
+
 [Below are references to links used in the doc]: http://vijayabharathi.in
 [Recipie App on GitHub Pages]: https://vijayabharathib.github.io/fcc-project-react-recipies
 [Recipie App repository on GitHub]: https://github.com/vijayabharathib/fcc-project-react-recipies
