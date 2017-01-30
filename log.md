@@ -12,6 +12,7 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 
 1. [Recipie App on GitHub Pages]
 2. [Recipie App repository on GitHub]
+---
 
 ### Day 2: Jan 08, 2017
 
@@ -23,6 +24,7 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 
 1. [Recipie App on GitHub Pages]
 2. [Recipie App repository on GitHub]
+---
 
 ### Day 3: Jan 14, 2017
 
@@ -34,6 +36,7 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 
 1. [Recipie App on GitHub Pages]
 2. [Recipie App repository on GitHub]
+---
 
 ### Day 4: Jan 15, 2017
 
@@ -45,7 +48,7 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 
 1. [Recipie App on GitHub Pages]
 2. [Recipie App repository on GitHub]
-
+---
 
 ### Day 5: Jan 19, 2017
 
@@ -57,8 +60,7 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 
 1. [Recipie App on GitHub Pages]
 2. [Recipie App repository on GitHub]
-
-
+---
 
 ### Day 6: Jan 21, 2017
 
@@ -70,6 +72,7 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 
 1. [Recipie App on GitHub Pages]
 2. [Recipie App repository on GitHub]
+---
 
 ### Day 7: Jan 22, 2017
 
@@ -81,6 +84,7 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 
 1. [Recipie App on GitHub Pages]
 2. [manage-ingredient branch on github repository]
+---
 
 ### Day 8: Jan 23, 2017
 
@@ -91,19 +95,68 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 **Link to work:**
 
 1. [Recipie App on GitHub Pages]
-2. [manage-ingredient branch on github repository]
+2. [Recipie App repository on GitHub]
+---
 
-### Day 9: Jan 23, 2017
+### Day 9: Jan 24, 2017
 
 **Today's Progress**: delete ingredient TDD green
 
-**Thoughts:** finally, simple use of dispatch (instead of trying to wrap around custom made transmit) worked. able to delete ingredients now. this was not like the recipie list & recipie component, as ingredient list also had a form to add new ingredients. i'll have to refactor either recipie/ingredient to match one another. for now, the last bit is to make the ingredients editable. another two/three days, and should be done with this project. 
+**Thoughts:** finally, simple use of dispatch (instead of trying to wrap around custom made transmit) worked. able to delete ingredients now. this was not like the recipie list & recipie component, as ingredient list also had a form to add new ingredients. i'll have to refactor either recipie/ingredient to match one another. for now, the last bit is to make the ingredients editable. another two/three days, and should be done with this project.
 
 **Link to work:**
 
 1. [Recipie App on GitHub Pages]
-2. [manage-ingredient branch on github repository]
+2. [Recipie App repository on GitHub]
+---
 
+### Day 10: Jan 26, 2017
+
+**Today's Progress**: edit ingredient TDD green
+
+**Thoughts:** edit ingredient is now working. enabled cache for node_modules in travis. That shaved about a minute. Build time came down from 2 to 1 min. Styling for edit ingredient is also complete and looks good now.
+
+**Link to work:**
+
+1. [Recipie App on GitHub Pages]
+2. [Recipie App repository on GitHub]
+---
+
+### Day 11: Jan 27, 2017
+
+**Today's Progress**: started refactoring the project
+
+**Thoughts:** reducers first. It had a lot of duplication of loops to find the recipie by id. to follow DRY, extracted a few of them into separate functions of their own.
+
+**Link to work:**
+
+1. [Recipie App on GitHub Pages]
+2. [Recipie App repository on GitHub]
+---
+
+### Day 12: Jan 28, 2017
+
+**Today's Progress**: a lot more refactoring
+
+**Thoughts:** spent several hours refactoring reducers and components. started extracting container and presentational components.
+
+**Link to work:**
+
+1. [Recipie App on GitHub Pages]
+2. [Recipie App repository on GitHub]
+---
+
+### Day 13: Jan 28, 2017
+
+**Today's Progress**: local storage
+
+**Thoughts:** enabled local storage to rehydrate the app when it starts. had to refactor some of the reducers which wouldn't fit. Hence, uuid was used to generate unique ids.
+
+**Link to work:**
+
+1. [Recipie App on GitHub Pages]
+2. [Recipie App repository on GitHub]
+---
 
 [Below are references to links used in the doc]: http://vijayabharathi.in
 [Recipie App on GitHub Pages]: https://vijayabharathib.github.io/fcc-project-react-recipies
