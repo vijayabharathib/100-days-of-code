@@ -157,7 +157,35 @@ Cleaned up the travis.yml to work on it's own (without custom install and script
 1. [Recipie App on GitHub Pages]
 2. [Recipie App repository on GitHub]
 ---
+# REBOOT
+## Completed React Recipie project and another project [Game of life], without any logs. Reboot to start logging again.
+
+### Day 1: March 07, 2017
+
+**Today's Progress**: Started with the dungeon crawler project
+
+**Thoughts:** It was pretty hard to get through the dev environment set up though I just had to use the last project [game of life] as base. Finally, the maze was up and running
+
+**Link to work:**
+
+1. [Dungeon Crawler Game on GitHub Pages]
+2. [Dungeon Crawler repository on GitHub]
+---
+### Day 2: March 08, 2017
+
+**Today's Progress**: Created a player and moved him around
+
+**Thoughts:** It is very tempting to jump right into solution. Had to keep myself from getting ahead of me and wrote some tests around player movement. The results are good. Game is kind of shaping up and pieces are falling into place. Handled arrow key press events to move player.
+
+**Link to work:**
+
+1. [Dungeon Crawler Game on GitHub Pages]
+2. [Dungeon Crawler repository on GitHub]
+
+---
 
 [Below are references to links used in the doc]: http://vijayabharathi.in
 [Recipie App on GitHub Pages]: https://vijayabharathib.github.io/fcc-project-react-recipies
 [Recipie App repository on GitHub]: https://github.com/vijayabharathib/fcc-project-react-recipies
+[Dungeon Crawler Game on GitHub Pages]:http://vijayabharathib.github.io/fcc-project-dungeon-crawler
+[Dungeon Crawler repository on GitHub]:https://github.com/vijayabharathib/fcc-project-dungeon-crawler
